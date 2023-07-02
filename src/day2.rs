@@ -99,7 +99,7 @@ fn add_win_score(score: &mut u32) {
     *score += WIN
 }
 
-
+#[cfg(test)]
 mod tests {
     use crate::day2::{day2_part1, day2_part2};
 

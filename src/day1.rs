@@ -46,7 +46,7 @@ fn add(string: &str) -> i32 {
     result
 }
 
-
+#[cfg(test)]
 mod tests {
     use crate::day1::{day1_part1, day1_part2};
 
